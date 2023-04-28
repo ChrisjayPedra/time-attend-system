@@ -17,7 +17,7 @@ import { EmSettingsComponent } from './em-settings/em-settings.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { ApplyListComponent } from './apply-list/apply-list.component';
 const routes: Routes = [
-  {path: '', component: LoginComponent},
+  {path: 'login_page', component: LoginComponent},
   {path: 'home', component:HomeComponent,
   children:[
 

@@ -21,7 +21,7 @@ export class HomeComponent {
         new Promise((resolve, reject) => {
 
         setTimeout(Math.random() > 0.5 ? resolve : reject, 800);
-        this.router.navigate([''])
+        this.router.navigate(['login_page'])
 
         }).catch(() => console.log('Oops errors!'))
     });
