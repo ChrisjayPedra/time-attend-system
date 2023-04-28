@@ -12,7 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { DatePipe } from '@angular/common';
 import { NgxCsvParserModule } from 'ngx-csv-parser';
-
+import {HashLocationStrategy,LocationStrategy} from '@angular/common'
 
 import { NzAffixModule } from 'ng-zorro-antd/affix';
 import { NzAlertModule } from 'ng-zorro-antd/alert';
@@ -213,7 +213,8 @@ registerLocaleData(en);
 
   ],
   providers: [DatePipe,
-    { provide: NZ_I18N, useValue: en_US }
+    { provide: NZ_I18N, useValue: en_US },
+    {provide:LocationStrategy,useClass:HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })
