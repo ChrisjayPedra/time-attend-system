@@ -22,6 +22,7 @@
     "@fullcalendar/core": "^6.1.5",
     "@fullcalendar/daygrid": "^6.1.5",
     "@syncfusion/ej2-angular-schedule": "^20.4.53-ngcc",
+    "cors": "^2.8.5",
     "cron-parser": "^4.8.1",
     "csv-export": "^1.0.2",
     "d3-drag": "^3.0.0",
@@ -33,6 +34,7 @@
     "dagre-compound": "^0.0.13",
     "file-saver": "^2.0.5",
     "install": "^0.13.0",
+    "json-server": "^0.17.3",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.5.28",
     "lord-icon-element": "^4.1.0",
@@ -63,5 +65,10 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

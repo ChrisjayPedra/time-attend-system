@@ -7,11 +7,11 @@ import { Observable, throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class CrudHttpService {
-  apiUrluser: string = 'http://localhost:3000/user';
-  apiUrlemployee: string = 'http://localhost:3000/employee';
-  apiUrlattendace: string = 'http://localhost:3000/individual_attendance';
-  apiUrlevents: string = 'http://localhost:3000/events';
-  apiUrlapplyrecords: string = 'http://localhost:3000/apply_leave_records';
+  apiUrluser: string = 'https://time-attendance.onrender.com/user';
+  apiUrlemployee: string = 'https://time-attendance.onrender.com/employee';
+  apiUrlattendace: string = 'https://time-attendance.onrender.com/individual_attendance';
+  apiUrlevents: string = 'https://time-attendance.onrender.com/events';
+  apiUrlapplyrecords: string = 'https://time-attendance.onrender.com/apply_leave_records';
 
 
 
